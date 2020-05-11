@@ -1,0 +1,14 @@
+@mixin text_heading() {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px;
+  text-transform: none;
+}
+
+@mixin text_paragraph() {
+  font-size: 14px;
+  font-family: "Arial";
+  line-height: 18px;
+  text-transform: none;
+  color: #444;
+}
